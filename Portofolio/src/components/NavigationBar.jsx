@@ -7,8 +7,8 @@ const NavigationBar = () => {
   const activeLinkClass = linkClass + " bg-purple-800 "
 
   return (
-    <nav className="bg-purple-700 shadow-lg">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+    <nav className="bg-purple-700 shadow-lg absolute container">
+      <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="text-white text-2xl font-bold">My Portfolio</div>
         <div className="block lg:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
