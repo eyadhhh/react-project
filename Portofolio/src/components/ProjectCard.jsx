@@ -11,7 +11,7 @@ const ProjectCard = ({project}) => {
           <h4 className="text-lg font-medium">Technologies:</h4>
           <div className="flex flex-wrap gap-2">
             {project.tec.slice(0, 3).map((tech, index) => (
-              <span key={index} className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full"><Link to={"/projects/" + project.id}>{tech}</Link></span>
+              <span key={index} className="bg-gray-200 text-gray-900 px-2 py-1 rounded-full"><Link to={"/projects/" + project.id}>{tech}</Link></span>
             ))}
             {project.tec.length > 3 && (
             <>
