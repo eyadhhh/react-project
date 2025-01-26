@@ -4,7 +4,7 @@ const Skills = () => {
   const skills = ["HTML", "CSS", "JavaScript", "SQL", "Python", "C#", "React", "Tailwind", "ASP.NET Core", "Unity"]
 
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-gray-100 pt-8 pb-11">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-6">My Skills</h2>
         <p className="text-center text-gray-700 mb-8">Here are some of the skills I have acquired over the years:</p>
