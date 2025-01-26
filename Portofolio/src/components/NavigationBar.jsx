@@ -24,8 +24,8 @@ const NavigationBar = () => {
           <NavLink to="/Projects" className={({ isActive }) => ((isActive ? activeLinkClass : linkClass) + (isOpen ? 'block' : 'inline-block'))}>
             Projects
           </NavLink>
-          <NavLink to="/Skills" className={({ isActive }) => ((isActive ? activeLinkClass : linkClass) + (isOpen ? 'block' : 'inline-block'))}>
-            Skills
+          <NavLink to="/about" className={({ isActive }) => ((isActive ? activeLinkClass : linkClass) + (isOpen ? 'block' : 'inline-block'))}>
+            About
           </NavLink>
         </div>
       </div>

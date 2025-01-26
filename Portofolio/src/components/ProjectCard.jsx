@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { IoIosMore } from "react-icons/io";
 
 const ProjectCard = ({project}) => {
   return (
