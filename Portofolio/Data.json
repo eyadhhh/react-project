@@ -1,0 +1,6 @@
+{
+    "Projects":[
+        {"id": 1, "title": "Math Quiz", "smallDes": "This project is about math quizzes with multiplication addition subtraction and division with different difficulty", "tec":["python", "flask", "html", "css", "js", "sqlite3"], "link":""},
+        {"id": 2, "title": "Game", "smallDes": "This project is about game built with unity about rna extraction it was made for a PHD Doctor in azhar University", "tec":["unity", "c#"]}
+    ]
+}
