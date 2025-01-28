@@ -3,11 +3,11 @@ import React from 'react'
 const ContactInformation = () => {
   const contactInfo = {
     name: "Eyad Elsherif",
-    email: "IyadElsherif",
+    email: "IyadElsherif@gmail.com",
     alternativeEmail: "eyadthebest99@gmail.com",
     phone: "+201210162307",
     location: "Cairo, Egypt",
-    linkedin: "https://www.linkedin.com/in/johndoe",
+    linkedin: "www.linkedin.com/in/eyad-elsherif",
     github: "https://github.com/eyadhhh"
   }
 

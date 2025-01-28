@@ -1,18 +1,19 @@
 import React from 'react'
-import Skills from '../components/Skills'
-import Projects from '../components/Projects'
-import ContactMe from '../components/ContactMe'
 import HeroSection from '../components/HeroSection'
-import ContactInformation from '../components/ContactInformation'
+import Projects from '../components/Projects'
+import Skills from '../components/Skills'
+import ContactMe from '../components/ContactMe'
+import MainFooter from '../components/MainFooter'
+import NavigationBar from '../components/NavigationBar'
 
 const HomePage = () => {
   return (
     <div>
-      <HeroSection/>
-      <Projects/>
-      <Skills/>
-      <ContactMe/>
-      <ContactInformation />
+      <HeroSection />
+      <Projects ShowAll={false} ShownNumber={3} />
+      <Skills />
+      <ContactMe />
+      <MainFooter />
     </div>
   )
 }

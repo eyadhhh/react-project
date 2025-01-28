@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 const HeroSection = () => {
   const DevName = "Eyad Elsherif"
-  const DevType = "Front-End"
+  const DevType = "Full-Stack Web Developer"
 
   return (
     <section className="bg-gray-900 text-white h-screen flex flex-col justify-center items-center text-center px-4">

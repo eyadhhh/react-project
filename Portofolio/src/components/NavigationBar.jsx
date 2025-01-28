@@ -27,6 +27,9 @@ const NavigationBar = () => {
           <NavLink to="/about" className={({ isActive }) => ((isActive ? activeLinkClass : linkClass) + (isOpen ? 'block' : 'inline-block'))}>
             About
           </NavLink>
+          <NavLink to="/contact" className={({ isActive }) => ((isActive ? activeLinkClass : linkClass) + (isOpen ? 'block' : 'inline-block'))}>
+            Contact
+          </NavLink>
         </div>
       </div>
     </nav>
